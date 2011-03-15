@@ -1,0 +1,8 @@
+--- 
+format: 1
+handler: 
+  commit: f7a6b4be05dd77de27c962e843b17b27ed39bbb5
+  branch: master
+lock: false
+repository_class: Piston::Git::Repository
+repository_url: git://github.com/silverstripe/silverstripe-subsites.git
