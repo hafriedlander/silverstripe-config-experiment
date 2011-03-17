@@ -1,0 +1,4 @@
+SS_Report:
+    Reports:
+        - ! BrokenLinksReport
+        - SubsiteReportWrapper("BrokenLinksReport")

@@ -179,6 +179,15 @@ if(!defined('TEMP_FOLDER')) {
 	define('TEMP_FOLDER', getTempFolder());
 }
 
+// Zend_Cache temp directory setting
+$_ENV['TMPDIR'] = TEMP_FOLDER; // for *nix
+$_ENV['TMP'] = TEMP_FOLDER; // for Windows
+
+/**
+ * The root directory of TinyMCE
+ */
+define('MCE_ROOT', 'sapphire/thirdparty/tinymce/');
+
 /**
  * Priorities definition. These constants are used in calls to _t() as an optional argument
  */

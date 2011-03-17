@@ -1,0 +1,16 @@
+CouchDB:
+    Databases:
+        incomplete:
+        	server: = LOCAL_COUCHDB_HOST || 'localhost',
+        	port: 5984
+        	database: = LOCAL_COUCHDB_INCOMPLETE_DATABASE || 'incomplete_orders'
+        	
+        complete:
+        	server: = LOCAL_COUCHDB_HOST || 'localhost',
+        	port: 5984
+        	database: = LOCAL_COUCHDB_COMPLETE_DATABASE || 'orders'
+        	
+        remote:
+        	server: localhost,
+        	port: 5984
+        	database: remote

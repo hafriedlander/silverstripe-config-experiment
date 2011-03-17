@@ -1,0 +1,11 @@
+Project:
+    Name: silverstripe-config-experiment
+
+Email:
+    AdminEmail: 'admin@example.com'
+    
+SignupController:
+    SupportEmail: =& Email.AdminEmail
+    
+Validator:
+    JavascriptValidationHandler: none

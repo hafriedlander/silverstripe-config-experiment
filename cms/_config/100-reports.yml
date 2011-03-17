@@ -1,0 +1,8 @@
+SS_Report:
+    Reports:
+        - BrokenLinksAdmin
+        
+    SideReports:
+        - SideReport_EmptyPages
+        - SideReport_RecentlyEdited
+        - SideReport_ToDo

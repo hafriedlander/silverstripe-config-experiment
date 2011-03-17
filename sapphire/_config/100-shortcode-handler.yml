@@ -1,0 +1,5 @@
+ShortcodeParser:
+    default:
+        shortcodes:
+            sitetree_link: = array('SiteTree', 'link_shortcode_handler')
+            

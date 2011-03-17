@@ -1,0 +1,8 @@
+Member:
+    UniqueIdentifiedField: Username
+    Extensions:
+        - CustomerRole
+
+Group:
+    Extensions:
+        - OrganisationRole

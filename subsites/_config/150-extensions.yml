@@ -1,0 +1,28 @@
+SiteTree:
+    Extensions:
+        - SiteTreeSubsites
+
+ContentController:
+    Extensions:
+        - ControllerSubsites
+
+LeftAndMain:
+    Extensions:
+        - LeftAndMainSubsites
+        - ControllerSubsites
+
+Group:
+    Extensions:
+        - GroupSubsites
+
+File:
+    Extensions:
+        - FileSubsites
+
+ErrorPage:
+    Extensions:
+        - ErrorPageSubsite
+
+SiteConfig:
+    Extensions:
+        - SiteConfigSubsite

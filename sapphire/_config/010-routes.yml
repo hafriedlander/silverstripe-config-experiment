@@ -1,0 +1,11 @@
+Director:
+    Routes:
+        'Security//$Action/$ID/$OtherID': Security
+        'db//$Action': DatabaseAdmin
+        '$Controller//$Action/$ID/$OtherID': '*'
+        '': RootURLController
+        'api/v1/live': VersionedRestfulServer
+        'api/v1': RestfulServer
+        'soap/v1': SOAPModelAccess
+        'dev': DevelopmentAdmin
+        'interactive': SapphireREPL

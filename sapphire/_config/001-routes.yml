@@ -1,0 +1,3 @@
+Director:
+    Routes:
+        '$URLSegment//$Action/$ID/$OtherID': ModelAsController

@@ -1,0 +1,2 @@
+Email:
+    BounceHandlerKey: = EMAIL_BOUNCEHANDLER_KEY || '1aaaf8fb60ea253dbf6efa71baaacbb3'

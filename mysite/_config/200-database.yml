@@ -1,0 +1,5 @@
+Database:
+    Name: SS_silverstripe-config-experiment
+    
+MySQLDatabase:
+    ConnectionCharset: utf8
